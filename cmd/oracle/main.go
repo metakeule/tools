@@ -8,7 +8,7 @@
 //
 // Run with -help flag or help subcommand for usage information.
 //
-package main // import "golang.org/x/tools/cmd/oracle"
+package main // import "gopkg.in/metakeule/tools.v1/cmd/oracle"
 
 import (
 	"bufio"
@@ -23,8 +23,8 @@ import (
 	"runtime"
 	"runtime/pprof"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/oracle"
+	"gopkg.in/metakeule/tools.v1/go/loader"
+	"gopkg.in/metakeule/tools.v1/oracle"
 )
 
 var posFlag = flag.String("pos", "",

@@ -12,8 +12,8 @@ import (
 	"testing"
 	"text/template"
 
-	"golang.org/x/tools/godoc/vfs"
-	"golang.org/x/tools/godoc/vfs/mapfs"
+	"gopkg.in/metakeule/tools.v1/godoc/vfs"
+	"gopkg.in/metakeule/tools.v1/godoc/vfs/mapfs"
 )
 
 // setupGoroot creates temporary directory to act as GOROOT when running tests

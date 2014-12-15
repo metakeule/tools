@@ -12,8 +12,8 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/tools/go/types"
-	"golang.org/x/tools/oracle/serial"
+	"gopkg.in/metakeule/tools.v1/go/types"
+	"gopkg.in/metakeule/tools.v1/oracle/serial"
 )
 
 // Implements displays the "implements" relation as it pertains to the

@@ -17,7 +17,7 @@ import (
 	"runtime"
 	"strings"
 
-	"golang.org/x/tools/imports"
+	"gopkg.in/metakeule/tools.v1/imports"
 )
 
 var (

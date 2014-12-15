@@ -21,8 +21,8 @@ import (
 	"strconv"
 	"strings"
 
-	_ "golang.org/x/tools/go/gcimporter"
-	"golang.org/x/tools/go/types"
+	_ "gopkg.in/metakeule/tools.v1/go/gcimporter"
+	"gopkg.in/metakeule/tools.v1/go/types"
 )
 
 // TODO: Need a flag to set build tags when parsing the package.

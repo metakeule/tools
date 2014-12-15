@@ -7,7 +7,7 @@
 package main
 
 import (
-	"golang.org/x/tools/go/types"
+	"gopkg.in/metakeule/tools.v1/go/types"
 )
 
 func init() {

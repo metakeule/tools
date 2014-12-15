@@ -16,10 +16,10 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/interp"
-	"golang.org/x/tools/go/types"
+	"gopkg.in/metakeule/tools.v1/go/loader"
+	"gopkg.in/metakeule/tools.v1/go/ssa"
+	"gopkg.in/metakeule/tools.v1/go/ssa/interp"
+	"gopkg.in/metakeule/tools.v1/go/types"
 )
 
 // Each line contains a space-separated list of $GOROOT/test/

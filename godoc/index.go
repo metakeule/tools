@@ -62,8 +62,8 @@ import (
 	"time"
 	"unicode"
 
-	"golang.org/x/tools/godoc/util"
-	"golang.org/x/tools/godoc/vfs"
+	"gopkg.in/metakeule/tools.v1/godoc/util"
+	"gopkg.in/metakeule/tools.v1/godoc/vfs"
 )
 
 // ----------------------------------------------------------------------------

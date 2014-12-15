@@ -11,7 +11,7 @@ import (
 	"go/ast"
 	"strings"
 
-	"golang.org/x/tools/cmd/vet/whitelist"
+	"gopkg.in/metakeule/tools.v1/cmd/vet/whitelist"
 )
 
 var compositeWhiteList = flag.Bool("compositewhitelist", true, "use composite white list; for testing only")

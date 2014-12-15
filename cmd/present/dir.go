@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	"golang.org/x/tools/present"
+	"gopkg.in/metakeule/tools.v1/present"
 )
 
 func init() {

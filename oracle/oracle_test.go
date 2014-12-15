@@ -44,8 +44,8 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/oracle"
+	"gopkg.in/metakeule/tools.v1/go/loader"
+	"gopkg.in/metakeule/tools.v1/oracle"
 )
 
 var updateFlag = flag.Bool("update", false, "Update the golden files.")

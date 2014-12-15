@@ -40,7 +40,7 @@
 // location is highlighted in red and hover text provides the compiler
 // error message.
 //
-package analysis // import "golang.org/x/tools/godoc/analysis"
+package analysis // import "gopkg.in/metakeule/tools.v1/godoc/analysis"
 
 import (
 	"fmt"
@@ -57,11 +57,11 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/pointer"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
-	"golang.org/x/tools/go/types"
+	"gopkg.in/metakeule/tools.v1/go/loader"
+	"gopkg.in/metakeule/tools.v1/go/pointer"
+	"gopkg.in/metakeule/tools.v1/go/ssa"
+	"gopkg.in/metakeule/tools.v1/go/ssa/ssautil"
+	"gopkg.in/metakeule/tools.v1/go/types"
 )
 
 // -- links ------------------------------------------------------------
@@ -364,7 +364,7 @@ func Run(pta bool, result *Result) {
 	}
 
 	// Uncomment to make startup quicker during debugging.
-	//args = []string{"golang.org/x/tools/cmd/godoc"}
+	//args = []string{"gopkg.in/metakeule/tools.v1/cmd/godoc"}
 	//args = []string{"fmt"}
 
 	if _, err := conf.FromArgs(args, true); err != nil {

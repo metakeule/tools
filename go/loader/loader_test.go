@@ -16,7 +16,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/go/loader"
+	"gopkg.in/metakeule/tools.v1/go/loader"
 )
 
 func loadFromArgs(args []string) (prog *loader.Program, rest []string, err error) {

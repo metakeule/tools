@@ -8,7 +8,7 @@
 // http://golang.org/s/oracle-design
 // http://golang.org/s/oracle-user-manual
 //
-package oracle // import "golang.org/x/tools/oracle"
+package oracle // import "gopkg.in/metakeule/tools.v1/oracle"
 
 // This file defines oracle.Query, the entry point for the oracle tool.
 // The actual executable is defined in cmd/oracle.
@@ -56,12 +56,12 @@ import (
 	"go/token"
 	"io"
 
-	"golang.org/x/tools/astutil"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/pointer"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/types"
-	"golang.org/x/tools/oracle/serial"
+	"gopkg.in/metakeule/tools.v1/astutil"
+	"gopkg.in/metakeule/tools.v1/go/loader"
+	"gopkg.in/metakeule/tools.v1/go/pointer"
+	"gopkg.in/metakeule/tools.v1/go/ssa"
+	"gopkg.in/metakeule/tools.v1/go/types"
+	"gopkg.in/metakeule/tools.v1/oracle/serial"
 )
 
 // An Oracle holds the program state required for one or more queries.

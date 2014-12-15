@@ -17,9 +17,9 @@ import (
 	"net/http"
 	"text/template"
 
-	"golang.org/x/tools/godoc"
-	"golang.org/x/tools/godoc/redirect"
-	"golang.org/x/tools/godoc/vfs"
+	"gopkg.in/metakeule/tools.v1/godoc"
+	"gopkg.in/metakeule/tools.v1/godoc/redirect"
+	"gopkg.in/metakeule/tools.v1/godoc/vfs"
 )
 
 var (

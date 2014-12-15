@@ -10,9 +10,9 @@ import (
 	"go/token"
 	"sort"
 
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/types"
-	"golang.org/x/tools/oracle/serial"
+	"gopkg.in/metakeule/tools.v1/go/ssa"
+	"gopkg.in/metakeule/tools.v1/go/types"
+	"gopkg.in/metakeule/tools.v1/oracle/serial"
 )
 
 // Callees reports the possible callees of the function call site

@@ -9,9 +9,9 @@ import (
 	pathpkg "path"
 	"time"
 
-	"golang.org/x/tools/godoc/analysis"
-	"golang.org/x/tools/godoc/util"
-	"golang.org/x/tools/godoc/vfs"
+	"gopkg.in/metakeule/tools.v1/godoc/analysis"
+	"gopkg.in/metakeule/tools.v1/godoc/util"
+	"gopkg.in/metakeule/tools.v1/godoc/vfs"
 )
 
 // A Corpus holds all the state related to serving and indexing a

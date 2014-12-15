@@ -8,7 +8,7 @@ import (
 	"go/ast"
 	"go/token"
 
-	"golang.org/x/tools/go/exact"
+	"gopkg.in/metakeule/tools.v1/go/exact"
 )
 
 func (check *Checker) reportAltDecl(obj Object) {

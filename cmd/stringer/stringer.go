@@ -56,7 +56,7 @@
 // where t is the lower-cased name of the first type listed. It can be overridden
 // with the -output flag.
 //
-package main // import "golang.org/x/tools/cmd/stringer"
+package main // import "gopkg.in/metakeule/tools.v1/cmd/stringer"
 
 import (
 	"bytes"
@@ -74,10 +74,10 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/tools/go/exact"
-	"golang.org/x/tools/go/types"
+	"gopkg.in/metakeule/tools.v1/go/exact"
+	"gopkg.in/metakeule/tools.v1/go/types"
 
-	_ "golang.org/x/tools/go/gcimporter"
+	_ "gopkg.in/metakeule/tools.v1/go/gcimporter"
 )
 
 var (

@@ -10,8 +10,8 @@ import (
 	"go/token"
 	"sort"
 
-	"golang.org/x/tools/go/types"
-	"golang.org/x/tools/oracle/serial"
+	"gopkg.in/metakeule/tools.v1/go/types"
+	"gopkg.in/metakeule/tools.v1/oracle/serial"
 )
 
 // Referrers reports all identifiers that resolve to the same object

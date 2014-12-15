@@ -8,7 +8,7 @@ import (
 	"go/parser"
 	"testing"
 
-	. "golang.org/x/tools/go/types"
+	. "gopkg.in/metakeule/tools.v1/go/types"
 )
 
 var testExprs = []testEntry{

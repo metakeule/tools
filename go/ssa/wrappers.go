@@ -22,7 +22,7 @@ package ssa
 import (
 	"fmt"
 
-	"golang.org/x/tools/go/types"
+	"gopkg.in/metakeule/tools.v1/go/types"
 )
 
 // -- wrappers -----------------------------------------------------------

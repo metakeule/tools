@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"os"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/ssa"
+	"gopkg.in/metakeule/tools.v1/go/loader"
+	"gopkg.in/metakeule/tools.v1/go/ssa"
 )
 
 // This program demonstrates how to run the SSA builder on a "Hello,

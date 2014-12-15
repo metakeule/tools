@@ -15,14 +15,14 @@ import (
 	"regexp"
 	"strings"
 
-	"golang.org/x/tools/godoc/vfs"
+	"gopkg.in/metakeule/tools.v1/godoc/vfs"
 )
 
 const (
 	target    = "/target"
 	cmdPrefix = "cmd/"
 	srcPrefix = "src/"
-	toolsPath = "golang.org/x/tools/cmd/"
+	toolsPath = "gopkg.in/metakeule/tools.v1/cmd/"
 )
 
 // CommandLine returns godoc results to w.

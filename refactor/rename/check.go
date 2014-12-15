@@ -11,10 +11,10 @@ import (
 	"go/ast"
 	"go/token"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/types"
-	"golang.org/x/tools/refactor/lexical"
-	"golang.org/x/tools/refactor/satisfy"
+	"gopkg.in/metakeule/tools.v1/go/loader"
+	"gopkg.in/metakeule/tools.v1/go/types"
+	"gopkg.in/metakeule/tools.v1/refactor/lexical"
+	"gopkg.in/metakeule/tools.v1/refactor/satisfy"
 )
 
 // errorf reports an error (e.g. conflict) and prevents file modification.

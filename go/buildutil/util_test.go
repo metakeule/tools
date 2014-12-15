@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/tools/go/buildutil"
+	"gopkg.in/metakeule/tools.v1/go/buildutil"
 )
 
 func TestContainingPackage(t *testing.T) {
@@ -24,7 +24,7 @@ func TestContainingPackage(t *testing.T) {
 		{goroot + "/src/encoding/json/foo.go", "encoding/json"},
 		{goroot + "/src/encoding/missing/foo.go", "(not found)"},
 		{gopath + "/src/golang.org/x/tools/go/buildutil/util_test.go",
-			"golang.org/x/tools/go/buildutil"},
+			"gopkg.in/metakeule/tools.v1/go/buildutil"},
 	} {
 		file, want := test[0], test[1]
 		bp, err := buildutil.ContainingPackage(&build.Default, ".", file)

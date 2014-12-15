@@ -12,8 +12,8 @@ package typeutil_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/types"
-	"golang.org/x/tools/go/types/typeutil"
+	"gopkg.in/metakeule/tools.v1/go/types"
+	"gopkg.in/metakeule/tools.v1/go/types/typeutil"
 )
 
 var (

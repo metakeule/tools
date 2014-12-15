@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/tools/go/vcs"
+	"gopkg.in/metakeule/tools.v1/go/vcs"
 )
 
 const (

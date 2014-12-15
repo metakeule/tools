@@ -10,11 +10,11 @@ import (
 	"go/token"
 	"sort"
 
-	"golang.org/x/tools/astutil"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
-	"golang.org/x/tools/go/types"
-	"golang.org/x/tools/oracle/serial"
+	"gopkg.in/metakeule/tools.v1/astutil"
+	"gopkg.in/metakeule/tools.v1/go/ssa"
+	"gopkg.in/metakeule/tools.v1/go/ssa/ssautil"
+	"gopkg.in/metakeule/tools.v1/go/types"
+	"gopkg.in/metakeule/tools.v1/oracle/serial"
 )
 
 var builtinErrorType = types.Universe.Lookup("error").Type()

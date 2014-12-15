@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/go/types"
+	"gopkg.in/metakeule/tools.v1/go/types"
 )
 
 var gcPath string // Go compiler path

@@ -18,9 +18,9 @@ import (
 	"runtime"
 	"time"
 
-	"golang.org/x/tools/go/gccgoimporter"
-	_ "golang.org/x/tools/go/gcimporter"
-	"golang.org/x/tools/go/types"
+	"gopkg.in/metakeule/tools.v1/go/gccgoimporter"
+	_ "gopkg.in/metakeule/tools.v1/go/gcimporter"
+	"gopkg.in/metakeule/tools.v1/go/types"
 )
 
 var (

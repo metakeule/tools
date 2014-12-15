@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"golang.org/x/tools/go/types"
+	"gopkg.in/metakeule/tools.v1/go/types"
 )
 
 // Information about a specific installation of gccgo.

@@ -13,8 +13,8 @@ import (
 	"os"
 	"sync"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/types"
+	"gopkg.in/metakeule/tools.v1/go/loader"
+	"gopkg.in/metakeule/tools.v1/go/types"
 )
 
 // BuilderMode is a bitmask of options for diagnostics and checking.

@@ -1,6 +1,6 @@
 package typeutil
 
-import "golang.org/x/tools/go/types"
+import "gopkg.in/metakeule/tools.v1/go/types"
 
 // Dependencies returns all dependencies of the specified packages.
 //

@@ -14,7 +14,7 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/tools/go/exact"
+	"gopkg.in/metakeule/tools.v1/go/exact"
 )
 
 // A declInfo describes a package-level const, type, var, or func declaration.
@@ -135,7 +135,7 @@ func (check *Checker) collectObjects() {
 		} else {
 			// Panic if we encounter an import.
 			importer = func(map[string]*Package, string) (*Package, error) {
-				panic(`no Config.Import or DefaultImport (missing import _ "golang.org/x/tools/go/gcimporter"?)`)
+				panic(`no Config.Import or DefaultImport (missing import _ "gopkg.in/metakeule/tools.v1/go/gcimporter"?)`)
 			}
 		}
 	}

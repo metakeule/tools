@@ -4,7 +4,7 @@
 
 // callgraph: a tool for reporting the call graph of a Go program.
 // See Usage for details, or run with -help.
-package main // import "golang.org/x/tools/cmd/callgraph"
+package main // import "gopkg.in/metakeule/tools.v1/cmd/callgraph"
 
 // TODO(adonovan):
 //
@@ -30,13 +30,13 @@ import (
 	"runtime"
 	"text/template"
 
-	"golang.org/x/tools/go/callgraph"
-	"golang.org/x/tools/go/callgraph/cha"
-	"golang.org/x/tools/go/callgraph/rta"
-	"golang.org/x/tools/go/callgraph/static"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/pointer"
-	"golang.org/x/tools/go/ssa"
+	"gopkg.in/metakeule/tools.v1/go/callgraph"
+	"gopkg.in/metakeule/tools.v1/go/callgraph/cha"
+	"gopkg.in/metakeule/tools.v1/go/callgraph/rta"
+	"gopkg.in/metakeule/tools.v1/go/callgraph/static"
+	"gopkg.in/metakeule/tools.v1/go/loader"
+	"gopkg.in/metakeule/tools.v1/go/pointer"
+	"gopkg.in/metakeule/tools.v1/go/ssa"
 )
 
 var algoFlag = flag.String("algo", "rta",

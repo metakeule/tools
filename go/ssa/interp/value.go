@@ -42,9 +42,9 @@ import (
 	"sync"
 	"unsafe"
 
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/types"
-	"golang.org/x/tools/go/types/typeutil"
+	"gopkg.in/metakeule/tools.v1/go/ssa"
+	"gopkg.in/metakeule/tools.v1/go/types"
+	"gopkg.in/metakeule/tools.v1/go/types/typeutil"
 )
 
 type value interface{}

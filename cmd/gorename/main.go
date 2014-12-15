@@ -1,7 +1,7 @@
 // The gorename command performs precise type-safe renaming of
 // identifiers in Go source code.  See the -help message or Usage
 // constant for details.
-package main // import "golang.org/x/tools/cmd/gorename"
+package main // import "gopkg.in/metakeule/tools.v1/cmd/gorename"
 
 import (
 	"flag"
@@ -10,7 +10,7 @@ import (
 	"os"
 	"runtime"
 
-	"golang.org/x/tools/refactor/rename"
+	"gopkg.in/metakeule/tools.v1/refactor/rename"
 )
 
 var (

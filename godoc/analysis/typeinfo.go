@@ -24,9 +24,9 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/types"
-	"golang.org/x/tools/go/types/typeutil"
+	"gopkg.in/metakeule/tools.v1/go/loader"
+	"gopkg.in/metakeule/tools.v1/go/types"
+	"gopkg.in/metakeule/tools.v1/go/types/typeutil"
 )
 
 // TODO(adonovan): audit to make sure it's safe on ill-typed packages.

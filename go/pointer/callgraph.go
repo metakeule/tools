@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"go/token"
 
-	"golang.org/x/tools/go/ssa"
+	"gopkg.in/metakeule/tools.v1/go/ssa"
 )
 
 type cgnode struct {

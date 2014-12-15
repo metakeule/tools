@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/go/gcimporter"
-	"golang.org/x/tools/go/types"
+	"gopkg.in/metakeule/tools.v1/go/gcimporter"
+	"gopkg.in/metakeule/tools.v1/go/types"
 )
 
 var fset = token.NewFileSet()

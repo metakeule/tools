@@ -12,9 +12,9 @@ import (
 	"sync"
 	"unsafe"
 
-	"golang.org/x/tools/go/exact"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/types"
+	"gopkg.in/metakeule/tools.v1/go/exact"
+	"gopkg.in/metakeule/tools.v1/go/ssa"
+	"gopkg.in/metakeule/tools.v1/go/types"
 )
 
 // If the target program panics, the interpreter panics with this type.

@@ -18,11 +18,11 @@ import (
 	"runtime"
 	"strings"
 
-	"golang.org/x/tools/playground/socket"
-	"golang.org/x/tools/present"
+	"gopkg.in/metakeule/tools.v1/playground/socket"
+	"gopkg.in/metakeule/tools.v1/present"
 )
 
-const basePkg = "golang.org/x/tools/cmd/present"
+const basePkg = "gopkg.in/metakeule/tools.v1/cmd/present"
 
 var basePath string
 

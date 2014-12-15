@@ -27,9 +27,9 @@ import (
 	"text/template"
 	"time"
 
-	"golang.org/x/tools/godoc/analysis"
-	"golang.org/x/tools/godoc/util"
-	"golang.org/x/tools/godoc/vfs"
+	"gopkg.in/metakeule/tools.v1/godoc/analysis"
+	"gopkg.in/metakeule/tools.v1/godoc/util"
+	"gopkg.in/metakeule/tools.v1/godoc/vfs"
 )
 
 // handlerServer is a migration from an old godoc http Handler type.

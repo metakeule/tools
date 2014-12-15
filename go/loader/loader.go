@@ -73,7 +73,7 @@
 // DEPENDENCY is a package loaded to satisfy an import in an initial
 // package or another dependency.
 //
-package loader // import "golang.org/x/tools/go/loader"
+package loader // import "gopkg.in/metakeule/tools.v1/go/loader"
 
 // 'go test', in-package test files, and import cycles
 // ---------------------------------------------------
@@ -136,9 +136,9 @@ import (
 	"os"
 	"strings"
 
-	"golang.org/x/tools/astutil"
-	"golang.org/x/tools/go/gcimporter"
-	"golang.org/x/tools/go/types"
+	"gopkg.in/metakeule/tools.v1/astutil"
+	"gopkg.in/metakeule/tools.v1/go/gcimporter"
+	"gopkg.in/metakeule/tools.v1/go/types"
 )
 
 // Config specifies the configuration for a program to load.

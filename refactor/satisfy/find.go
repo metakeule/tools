@@ -15,7 +15,7 @@
 // since it is computing it anyway, and it is robust for ill-typed
 // inputs, which this package is not.
 //
-package satisfy // import "golang.org/x/tools/refactor/satisfy"
+package satisfy // import "gopkg.in/metakeule/tools.v1/refactor/satisfy"
 
 // NOTES:
 //
@@ -49,7 +49,7 @@ import (
 	"go/ast"
 	"go/token"
 
-	"golang.org/x/tools/go/types"
+	"gopkg.in/metakeule/tools.v1/go/types"
 )
 
 // A Constraint records the fact that the RHS type does and must

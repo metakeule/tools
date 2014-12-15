@@ -14,7 +14,7 @@ import (
 	"go/token"
 	pathpkg "path"
 
-	"golang.org/x/tools/godoc/vfs"
+	"gopkg.in/metakeule/tools.v1/godoc/vfs"
 )
 
 var linePrefix = []byte("//line ")

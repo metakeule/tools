@@ -11,8 +11,8 @@ import (
 	"io"
 	"math/big"
 
-	"golang.org/x/tools/go/exact"
-	"golang.org/x/tools/go/types"
+	"gopkg.in/metakeule/tools.v1/go/exact"
+	"gopkg.in/metakeule/tools.v1/go/types"
 )
 
 // TODO(gri) use tabwriter for alignment?

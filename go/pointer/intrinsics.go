@@ -18,8 +18,8 @@ package pointer
 import (
 	"fmt"
 
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/types"
+	"gopkg.in/metakeule/tools.v1/go/ssa"
+	"gopkg.in/metakeule/tools.v1/go/types"
 )
 
 // Instances of 'intrinsic' generate analysis constraints for calls to

@@ -6,12 +6,12 @@ import (
 	"sort"
 	"testing"
 
-	"golang.org/x/tools/refactor/importgraph"
+	"gopkg.in/metakeule/tools.v1/refactor/importgraph"
 
 	_ "crypto/hmac" // just for test, below
 )
 
-const this = "golang.org/x/tools/refactor/importgraph"
+const this = "gopkg.in/metakeule/tools.v1/refactor/importgraph"
 
 func TestBuild(t *testing.T) {
 	saved := runtime.GOMAXPROCS(8) // Build is highly parallel

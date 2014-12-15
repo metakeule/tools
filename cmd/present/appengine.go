@@ -9,9 +9,9 @@ package main
 import (
 	"mime"
 
-	"golang.org/x/tools/present"
+	"gopkg.in/metakeule/tools.v1/present"
 
-	_ "golang.org/x/tools/playground"
+	_ "gopkg.in/metakeule/tools.v1/playground"
 )
 
 var basePath = "./present/"

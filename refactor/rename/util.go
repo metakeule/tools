@@ -13,7 +13,7 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/tools/go/types"
+	"gopkg.in/metakeule/tools.v1/go/types"
 )
 
 func objectKind(obj types.Object) string {
