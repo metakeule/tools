@@ -4,7 +4,7 @@
 
 // Package imports implements a Go pretty-printer (like package "go/format")
 // that also adds or removes import statements as necessary.
-package imports // import "gopkg.in/metakeule/tools.v1/imports"
+package imports //gopkg.in/metakeule/tools.v1/imports"
 
 import (
 	"bufio"

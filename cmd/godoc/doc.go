@@ -141,4 +141,4 @@ See "Godoc: documenting Go code" for how to write good comments for godoc:
 http://golang.org/doc/articles/godoc_documenting_go_code.html
 
 */
-package main // import "gopkg.in/metakeule/tools.v1/cmd/godoc"
+package main //gopkg.in/metakeule/tools.v1/cmd/godoc"

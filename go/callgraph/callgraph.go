@@ -32,7 +32,7 @@ in the call graph; they are treated like built-in operators of the
 language.
 
 */
-package callgraph // import "gopkg.in/metakeule/tools.v1/go/callgraph"
+package callgraph //gopkg.in/metakeule/tools.v1/go/callgraph"
 
 // TODO(adonovan): add a function to eliminate wrappers from the
 // callgraph, preserving topology.

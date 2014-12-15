@@ -4,7 +4,7 @@
 
 // Package importgraph computes the forward and reverse import
 // dependency graphs for all packages in a Go workspace.
-package importgraph // import "gopkg.in/metakeule/tools.v1/refactor/importgraph"
+package importgraph //gopkg.in/metakeule/tools.v1/refactor/importgraph"
 
 import (
 	"go/build"

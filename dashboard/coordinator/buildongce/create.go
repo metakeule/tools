@@ -4,7 +4,7 @@
 
 // +build ignore
 
-package main // import "gopkg.in/metakeule/tools.v1/dashboard/coordinator/buildongce"
+package main //gopkg.in/metakeule/tools.v1/dashboard/coordinator/buildongce"
 
 import (
 	"bufio"

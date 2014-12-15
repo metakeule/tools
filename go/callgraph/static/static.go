@@ -1,6 +1,6 @@
 // Package static computes the call graph of a Go program containing
 // only static call edges.
-package static // import "gopkg.in/metakeule/tools.v1/go/callgraph/static"
+package static //gopkg.in/metakeule/tools.v1/go/callgraph/static"
 
 import (
 	"gopkg.in/metakeule/tools.v1/go/callgraph"

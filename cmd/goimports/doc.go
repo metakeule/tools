@@ -30,4 +30,4 @@ For other editors, you probably know what to do.
 Happy hacking!
 
 */
-package main // import "gopkg.in/metakeule/tools.v1/cmd/goimports"
+package main //gopkg.in/metakeule/tools.v1/cmd/goimports"

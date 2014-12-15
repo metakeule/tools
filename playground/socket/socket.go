@@ -11,7 +11,7 @@
 // The wire format is JSON and is described by the Message type.
 //
 // This will not run on App Engine as WebSockets are not supported there.
-package socket // import "gopkg.in/metakeule/tools.v1/playground/socket"
+package socket //gopkg.in/metakeule/tools.v1/playground/socket"
 
 import (
 	"bytes"

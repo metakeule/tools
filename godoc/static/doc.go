@@ -5,4 +5,4 @@
 // Package static exports a map of static file content that supports the godoc
 // user interface. The map should be used with the mapfs package, see
 // golang.org/x/tools/godoc/vfs/mapfs.
-package static // import "gopkg.in/metakeule/tools.v1/godoc/static"
+package static //gopkg.in/metakeule/tools.v1/godoc/static"

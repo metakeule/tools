@@ -4,7 +4,7 @@
 
 // Package vfs defines types for abstract file system access and provides an
 // implementation accessing the file system of the underlying OS.
-package vfs // import "gopkg.in/metakeule/tools.v1/godoc/vfs"
+package vfs //gopkg.in/metakeule/tools.v1/godoc/vfs"
 
 import (
 	"io"

@@ -63,7 +63,7 @@
 //
 // If no -s argument is provided, godex will try to find a matching source.
 //
-package main // import "gopkg.in/metakeule/tools.v1/cmd/godex"
+package main //gopkg.in/metakeule/tools.v1/cmd/godex"
 
 // BUG(gri): support for -s=source is not yet implemented
 // BUG(gri): gccgo-importing appears to have occasional problems stalling godex; try -s=gc as work-around

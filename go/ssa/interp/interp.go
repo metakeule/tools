@@ -42,7 +42,7 @@
 //
 // * os.Exit is implemented using panic, causing deferred functions to
 // run.
-package interp // import "gopkg.in/metakeule/tools.v1/go/ssa/interp"
+package interp //gopkg.in/metakeule/tools.v1/go/ssa/interp"
 
 import (
 	"fmt"

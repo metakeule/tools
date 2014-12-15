@@ -73,7 +73,7 @@
 // DEPENDENCY is a package loaded to satisfy an import in an initial
 // package or another dependency.
 //
-package loader // import "gopkg.in/metakeule/tools.v1/go/loader"
+package loader //gopkg.in/metakeule/tools.v1/go/loader"
 
 // 'go test', in-package test files, and import cycles
 // ---------------------------------------------------

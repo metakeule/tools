@@ -8,7 +8,7 @@
 //
 // Run with -help flag or help subcommand for usage information.
 //
-package main // import "gopkg.in/metakeule/tools.v1/cmd/oracle"
+package main //gopkg.in/metakeule/tools.v1/cmd/oracle"
 
 import (
 	"bufio"

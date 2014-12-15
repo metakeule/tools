@@ -56,7 +56,7 @@
 // where t is the lower-cased name of the first type listed. It can be overridden
 // with the -output flag.
 //
-package main // import "gopkg.in/metakeule/tools.v1/cmd/stringer"
+package main //gopkg.in/metakeule/tools.v1/cmd/stringer"
 
 import (
 	"bytes"

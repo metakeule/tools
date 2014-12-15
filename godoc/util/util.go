@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package util contains utility types and functions for godoc.
-package util // import "gopkg.in/metakeule/tools.v1/godoc/util"
+package util //gopkg.in/metakeule/tools.v1/godoc/util"
 
 import (
 	pathpkg "path"

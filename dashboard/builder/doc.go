@@ -55,4 +55,4 @@ If the Google Code credentials are not provided the archival step
 will be skipped.
 
 */
-package main // import "gopkg.in/metakeule/tools.v1/dashboard/builder"
+package main //gopkg.in/metakeule/tools.v1/dashboard/builder"

@@ -1,7 +1,7 @@
 // The eg command performs example-based refactoring.
 // For documentation, run the command, or see Help in
 // code.google.com/p/go.tools/refactor/eg.
-package main // import "gopkg.in/metakeule/tools.v1/cmd/eg"
+package main //gopkg.in/metakeule/tools.v1/cmd/eg"
 
 import (
 	"flag"

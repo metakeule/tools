@@ -1,6 +1,6 @@
 // Package eg implements the example-based refactoring tool whose
 // command-line is defined in golang.org/x/tools/cmd/eg.
-package eg // import "gopkg.in/metakeule/tools.v1/refactor/eg"
+package eg //gopkg.in/metakeule/tools.v1/refactor/eg"
 
 import (
 	"bytes"

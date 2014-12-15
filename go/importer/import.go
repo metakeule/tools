@@ -7,7 +7,7 @@
 // by R. Griesemer, Technical Report 156, ETH Zürich, 1991.
 
 // package importer implements an exporter and importer for Go export data.
-package importer // import "gopkg.in/metakeule/tools.v1/go/importer"
+package importer //gopkg.in/metakeule/tools.v1/go/importer"
 
 import (
 	"encoding/binary"

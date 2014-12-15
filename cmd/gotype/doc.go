@@ -59,4 +59,4 @@ To verify the output of a pipe:
 	echo "package foo" | gotype
 
 */
-package main // import "gopkg.in/metakeule/tools.v1/cmd/gotype"
+package main //gopkg.in/metakeule/tools.v1/cmd/gotype"

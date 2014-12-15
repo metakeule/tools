@@ -12,7 +12,7 @@
 //   a comment syntax, etc.
 // - allow queries to nest, like Blaze query language.
 //
-package main // import "gopkg.in/metakeule/tools.v1/cmd/digraph"
+package main //gopkg.in/metakeule/tools.v1/cmd/digraph"
 
 import (
 	"bufio"

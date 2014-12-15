@@ -4,7 +4,7 @@
 
 // Package typeutil defines various utilities for types, such as Map,
 // a mapping from types.Type to interface{} values.
-package typeutil // import "gopkg.in/metakeule/tools.v1/go/types/typeutil"
+package typeutil //gopkg.in/metakeule/tools.v1/go/types/typeutil"
 
 import (
 	"bytes"

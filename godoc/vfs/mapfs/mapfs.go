@@ -4,7 +4,7 @@
 
 // Package mapfs file provides an implementation of the FileSystem
 // interface based on the contents of a map[string]string.
-package mapfs // import "gopkg.in/metakeule/tools.v1/godoc/vfs/mapfs"
+package mapfs //gopkg.in/metakeule/tools.v1/godoc/vfs/mapfs"
 
 import (
 	"io"

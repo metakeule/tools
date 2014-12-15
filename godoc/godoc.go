@@ -7,7 +7,7 @@
 //
 // This package comment will evolve over time as this package splits
 // into smaller pieces.
-package godoc // import "gopkg.in/metakeule/tools.v1/godoc"
+package godoc //gopkg.in/metakeule/tools.v1/godoc"
 
 import (
 	"bytes"

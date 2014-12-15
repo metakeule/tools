@@ -34,4 +34,4 @@ in a format like this:
 	BenchmarkConcat     80            48            -40.00%
 
 */
-package main // import "gopkg.in/metakeule/tools.v1/cmd/benchcmp"
+package main //gopkg.in/metakeule/tools.v1/cmd/benchcmp"

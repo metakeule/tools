@@ -120,4 +120,4 @@
 // domains of source locations, ast.Nodes, types.Objects,
 // ssa.Values/Instructions.
 //
-package ssa // import "gopkg.in/metakeule/tools.v1/go/ssa"
+package ssa //gopkg.in/metakeule/tools.v1/go/ssa"

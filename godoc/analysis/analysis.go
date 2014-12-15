@@ -40,7 +40,7 @@
 // location is highlighted in red and hover text provides the compiler
 // error message.
 //
-package analysis // import "gopkg.in/metakeule/tools.v1/godoc/analysis"
+package analysis //gopkg.in/metakeule/tools.v1/godoc/analysis"
 
 import (
 	"fmt"

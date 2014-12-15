@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package gccgoimporter implements Import for gccgo-generated object files.
-package gccgoimporter // import "gopkg.in/metakeule/tools.v1/go/gccgoimporter"
+package gccgoimporter //gopkg.in/metakeule/tools.v1/go/gccgoimporter"
 
 import (
 	"bytes"

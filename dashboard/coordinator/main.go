@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // The coordinator runs on GCE and coordinates builds in Docker containers.
-package main // import "gopkg.in/metakeule/tools.v1/dashboard/coordinator"
+package main //gopkg.in/metakeule/tools.v1/dashboard/coordinator"
 
 import (
 	"bytes"

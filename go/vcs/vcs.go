@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package vcs // import "gopkg.in/metakeule/tools.v1/go/vcs"
+package vcs //gopkg.in/metakeule/tools.v1/go/vcs"
 
 import (
 	"bytes"

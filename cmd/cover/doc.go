@@ -18,4 +18,4 @@ For usage information, please see:
 	go help testflag
 	go tool cover -help
 */
-package main // import "gopkg.in/metakeule/tools.v1/cmd/cover"
+package main //gopkg.in/metakeule/tools.v1/cmd/cover"

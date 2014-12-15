@@ -7,7 +7,7 @@
 //
 // All I/O is done via the build.Context file system interface, which must
 // be concurrency-safe.
-package buildutil // import "gopkg.in/metakeule/tools.v1/go/buildutil"
+package buildutil //gopkg.in/metakeule/tools.v1/go/buildutil"
 
 import (
 	"go/build"

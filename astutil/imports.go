@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package astutil contains common utilities for working with the Go AST.
-package astutil // import "gopkg.in/metakeule/tools.v1/astutil"
+package astutil //gopkg.in/metakeule/tools.v1/astutil"
 
 import (
 	"bufio"

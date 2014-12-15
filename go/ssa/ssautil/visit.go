@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package ssautil // import "gopkg.in/metakeule/tools.v1/go/ssa/ssautil"
+package ssautil //gopkg.in/metakeule/tools.v1/go/ssa/ssautil"
 
 import "gopkg.in/metakeule/tools.v1/go/ssa"
 

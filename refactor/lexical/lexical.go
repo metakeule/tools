@@ -9,7 +9,7 @@
 //
 // THIS INTERFACE IS EXPERIMENTAL AND MAY CHANGE OR BE REMOVED IN FUTURE.
 //
-package lexical // import "gopkg.in/metakeule/tools.v1/refactor/lexical"
+package lexical //gopkg.in/metakeule/tools.v1/refactor/lexical"
 
 // OVERVIEW
 //

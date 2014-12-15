@@ -5,7 +5,7 @@
 // Package playground registers HTTP handlers at "/compile" and "/share" that
 // proxy requests to the golang.org playground service.
 // This package may be used unaltered on App Engine.
-package playground // import "gopkg.in/metakeule/tools.v1/playground"
+package playground //gopkg.in/metakeule/tools.v1/playground"
 
 import (
 	"bytes"

@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package httpfs implements http.FileSystem using a godoc vfs.FileSystem.
-package httpfs // import "gopkg.in/metakeule/tools.v1/godoc/vfs/httpfs"
+package httpfs //gopkg.in/metakeule/tools.v1/godoc/vfs/httpfs"
 
 import (
 	"fmt"

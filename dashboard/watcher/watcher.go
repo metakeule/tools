@@ -4,7 +4,7 @@
 
 // Command watcher watches the specified repository for new commits
 // and reports them to the build dashboard.
-package main // import "gopkg.in/metakeule/tools.v1/dashboard/watcher"
+package main //gopkg.in/metakeule/tools.v1/dashboard/watcher"
 
 import (
 	"bytes"

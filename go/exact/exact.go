@@ -11,7 +11,7 @@
 // values produce unknown values unless specified
 // otherwise.
 //
-package exact // import "gopkg.in/metakeule/tools.v1/go/exact"
+package exact //gopkg.in/metakeule/tools.v1/go/exact"
 
 import (
 	"fmt"

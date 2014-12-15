@@ -28,4 +28,4 @@ the generated output. The supported formats are:
 The present file format is documented by the present package:
 http://godoc.org/golang.org/x/tools/present
 */
-package main // import "gopkg.in/metakeule/tools.v1/cmd/present"
+package main //gopkg.in/metakeule/tools.v1/cmd/present"

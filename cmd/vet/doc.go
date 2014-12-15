@@ -179,4 +179,4 @@ These flags configure the behavior of vet:
 	-test
 		For testing only: sets -all and -shadow.
 */
-package main // import "gopkg.in/metakeule/tools.v1/cmd/vet"
+package main //gopkg.in/metakeule/tools.v1/cmd/vet"

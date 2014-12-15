@@ -4,7 +4,7 @@
 
 // Package gatefs provides an implementation of the FileSystem
 // interface that wraps another FileSystem and limits its concurrency.
-package gatefs // import "gopkg.in/metakeule/tools.v1/godoc/vfs/gatefs"
+package gatefs //gopkg.in/metakeule/tools.v1/godoc/vfs/gatefs"
 
 import (
 	"fmt"

@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package blog implements a web server for articles written in present format.
-package blog // import "gopkg.in/metakeule/tools.v1/blog"
+package blog //gopkg.in/metakeule/tools.v1/blog"
 
 import (
 	"bytes"

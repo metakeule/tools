@@ -15,7 +15,7 @@
 // since it is computing it anyway, and it is robust for ill-typed
 // inputs, which this package is not.
 //
-package satisfy // import "gopkg.in/metakeule/tools.v1/refactor/satisfy"
+package satisfy //gopkg.in/metakeule/tools.v1/refactor/satisfy"
 
 // NOTES:
 //
